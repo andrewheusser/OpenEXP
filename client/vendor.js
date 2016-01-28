@@ -1,4 +1,5 @@
 window.jQuery = window.$ = require("jquery");
+
 module.exports = function() {
     // CSS
     require('style!css!bootstrap/dist/css/bootstrap.min.css');
@@ -10,4 +11,5 @@ module.exports = function() {
     require('script!jspsych/jspsych.js');
     require('script!jspsych/plugins/jspsych-text.js');
     require('script!jspsych/plugins/jspsych-single-stim.js');
+    require('script!openbci-sdk');
 }();
